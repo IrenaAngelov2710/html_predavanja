@@ -1,0 +1,66 @@
+HTML elements:
+<title>Naslov na web strana</title>
+
+<p>This is our first lesson</p>
+
+<h1>This is big heading</h1>
+<h2>This is smaller heading</h2>
+<h6>This is smallest heading</h6>
+
+<!--za da stavis komentar sto nema da se gleda na web stranata-->
+
+<b>boldiran text</b>
+<strong>Important text</strong>
+
+<br/> SPACE
+
+<i>italic text</i>
+
+<mark>Marked up text</mark>
+
+<del>deleted text</del>
+
+<u>Underlined text</u>
+
+<small>This text is small</small>
+
+<hr/> HORIZONTAL LINE, za da bide podebela linijata primer: <hr size="3">
+
+Slika ako e prevzemena od internet, primer nekoj link <img src="Copy Image Address" alt="Opis na slikata"primer:width="350" hight="300">
+Za da se stavi slika sto veke ja imame vo kompjuter mora da bide vo ist folder so html, primer: <img src="imeto na slikata">
+
+Za da stavime link, <a href="linkot od stranata">Imeto pod koe ke ni stoi linkot</a>
+Za da se otvori link vo nov tab <a href="linkot od stranata" target="_blank">Link</a>
+
+Za da napravime link sto ke ne nosi na nova strana, treba prvo vo folderot da napravime nov html file. Vo noviot html file, vo body moze da go stavime celiot tekst sto sakame od prviot html file da go premestime vo vtoriot html file. Potoa vo prviot html file treba da kreirame <a href="imeto na vtoriot html file">Ime na linkot</a>
+
+<centar>Za da se stavi tekstot vo sredina</centar>
+
+Bullet list
+<ul>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ul>
+Numeral list
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+
+<!--Navigacisko meni-->
+<header>
+<nav>
+<ul>
+<li>
+    <a href="#">Table</a>
+</li>
+<li>
+    <a href="#">Image</a>
+</li>
+<li>
+    <a href="#">List</a>
+</li>
+</ul>
+</nav>

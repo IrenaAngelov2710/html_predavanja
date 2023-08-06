@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Header and Tables</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                 </li>
+                 <li>
+                    <a href="#">Gallery</a>
+                 </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Tabeli-->
+    <table>
+        <caption>
+            Naslov na tabela
+        </caption>
+    
+        <thead>
+            <table border="2" cellpadding="10" cellspacing="5"> 
+                <tr>
+                    <th>Ime</th>
+                    <th>Prezime</th>
+                    <th>Telefon</th>
+                    <th>Email</th>
+                    </tr>
+        </thead>
+
+    <tbody>
+<tr>
+<td>Hristijan</td>
+<td>Kostadinoski</td>
+<td>9329 3209 32</td>
+<td>example@yahoo.com</td>
+</tr>
+    </tbody>
+    </table>
+
+<!--Primer 2-->
+
+<table border="2" cellpadding="15" cellspacing="10">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Amount</th>
+            <th>Color</th>
+        </tr>
+ </thead>
+
+ <tbody>
+    <tr>
+<td>Orange</td>
+<td>5$</td>
+<td>Orange</td>
+ </tr>
+    </tbody>
+
+    <tbody>
+        <tr>
+    <td>Apple</td>
+    <td>3$</td>
+    <td>Red</td>
+     </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+        <td>Milk</td>
+        <td>10$</td>
+        <td></td>
+         </tr>
+         </tbody>
+</table>    
+</body>
+</html>

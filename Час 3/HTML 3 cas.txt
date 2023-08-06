@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formi vo HTML</title>
+    </head>
+
+    <body>
+
+<!--Primer 1-->        
+<form>
+<input type="text" placeholder="name" value="Hristijan"/>
+<br/>
+<label>Surname</label> <input type="text"/>
+<br/>
+<input type="password" placeholder="your password"/><br/>
+
+<label for="email">Your E-mail</label>
+<input type="email" id="e-mail" name=""/><br/>
+
+<input type="file"/><br/>
+<input type="date"/><br/>
+<input type="number"/><br/>
+
+<label>Radio</label> <input type="radio" name=""/>
+<label>Checkbox</label> <input type="checkbox" name=""/>
+</form>
+
+<!--Primer 2-->
+<form method="post" action="">
+    <h2>Login form</h2>
+<label>Name</label> <input type="text"/><br/>
+<label>Surname:</label>
+<input type="text"/><br/>
+<label>E-mail</label><input type="email" id="e-mail" name=""/><br/>
+<!--<input  type="submit" name="" value="Submit"/>-->
+<button>Submit</button>
+<input type="submit" name="" value="Submit"/>
+</form>
+<br/>
+<br/>
+
+<!--Primer 3-->
+<form>
+    <h4>Prasanje broj 1</h4>
+<label>A</label><input type="radio" name="prasanja" value="A"/><br/>
+<label>B</label><input type="radio" name="prasanja" value="B"/><br/>
+<label>C</label><input type="radio" name="prasanja" value="C"/><br/>
+</form>
+<br/>
+<br/>
+
+<!--Primer 4-->
+<form>
+    <label>A</label><input type="checkbox" name="prasanja" value="A"/><br/>
+    <label>B</label><input type="checkbox" name="prasanja" value="B"/><br/>
+    <label>C</label><input type="checkbox" name="prasanja" value="C"/><br/>
+<p>Write your comment</p>
+    <textarea rows="10" cols="50"></textarea><br/>
+
+    <select disabled>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+    </select>
+
+    <!--second example of the drop-drow-->
+    <select size="4">
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+
+<select>
+<optgroup label="Cars">
+    <option>Audi</option>
+    <option>BMW</option>
+    <option>Mercedes</option>
+</optgroup>
+<optgroup label="Bikes">
+<option>Honda</option>
+<option>Yamaha</option>
+<option>Suzuki</option>
+</optgroup>
+</select>
+
+<!--Fieldset example-->
+<form>
+    <fieldset>
+<legend>Account information</legend>
+<label>Username:</label><input type="text" name=""/><br/>
+<label>Password:</label><input type="password" name=""/>
+     </fieldset>
+
+     <fieldset>
+        <legend>User information</legend>
+        <label>Username:</label><input type="text" name=""/><br/>
+        <label>Password:</label><input type="password" name=""/>
+             </fieldset>
+</form>
+</form>
+
+<!--<div> and <span>-->
+    <div>
+        <img 
+        src="https://www.eatthis.com/wp-content/uploads/sites/4/2019/06/deep-dish-pizza-chicago.jpg" width="300" height="300" 
+        alt="random image"
+        />
+        <p>Ova e obicen paragraf</p>
+    </div>
+
+   <p>Paragraf so tag <span>nekakov tekst</span></p> 
+</body>
+</html>

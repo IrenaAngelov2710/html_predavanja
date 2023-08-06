@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Vtor cas HTML</title>
+  </head>
+
+  <body>
+    <!-- Sliki -->
+    <img
+      src="https://sallysbakingaddiction.com/wp-content/uploads/2013/04/triple-chocolate-cake-4.jpg"
+      width="300"
+      height="300"
+    />
+    <img
+      src="/pictures/inner_pictures/bike.jpeg"
+      alt="bike"
+      width="200"
+      height="200"
+    />
+    <img
+      src="/pictures/nature.jpeg"
+      alt="image of nature"
+      width="200"
+      height="200"
+    />
+    <br />
+    <br />
+
+    <!-- Linkovi -->
+    <a href="https://github.com/" target="_blank">Link</a>
+    <br />
+    <a href="home.html">Home</a>
+    <br />
+    <a href="https://www.google.com/">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Google_Chrome_icon_%28February_2022%29.svg"
+        alt="google img"
+        width="50"
+      />
+    </a>
+
+    <p>nekakov paragraf <a href="#">Ova e link</a></p>
+
+    <!--Listi-->
+    <ul>
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Fourth Item</li>
+    </ul>
+
+    <ul>
+      <h4>Lista od jadenja</h4>
+      <li>Riba</li>
+      <li>Palacinki</li>
+      <li>Salata</li>
+    </ul>
+
+    <ol type="1" reversed start="1">
+      <li>Prv Element</li>
+      <li>Vtor Element</li>
+      <li>Tret Element</li>
+    </ol>
+
+    <ol>
+      <h2>Some basic information about the movie Matrix</h2>
+      <li><h4>Name: Matrix</h4></li>
+      <li><h4>Year: 1999</h4></li>
+      <li><h4>Genres:</h4></li>
+      <ul>
+        <li><h6>Sci-fi</h6></li>
+        <li><h6>Adventure</h6></li>
+      </ul>
+
+      <li><h3>Actors:</h3></li>
+      <ul>
+        <li><p>Keanu Reeves</p></li>
+        <li><p>Laurence Fishburne</p></li>
+      </ul>
+
+      <li>
+        <a href="https://yts.mx/movies/the-matrix-1999" target="_blank"
+          >Link to the movie</a
+        >
+      </li>
+    </ol>
+  </body>
+</html>
